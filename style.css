@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 1em;
+    font-family: poppins ;
+    background-image: linear-gradient(to left, #DECBA4, #3E5151);
+    cursor: default;
+    
+    
+}
+.pet13, .pet2 {
+
+    width: 210px;
+    height: 470px;
+    background-image: linear-gradient(to bottom, #DECBA4, #3E5151);
+   border-radius: 5px;
+}
+.container {
+    display: flex;
+    flex-direction: row ;
+    gap: 30px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    word-wrap: wrap;
+    line-height: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    text-transform: uppercase;
+    color: rgb(138, 48, 48);
+}
+h3 {
+    font-weight: 400;
+    font-size: 0.8em;
+    margin: auto;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+    font-size: 3em;
+    font-weight: 400;
+}
+div.button {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 35px;
+    background: rgb(160, 160, 109);
+   margin: auto;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+
+.pet2 {
+    height: 555px;
+}
+
+#pet3 {
+    height: 420px;
+}
+@media (orientation: portrait) {
+    .container {
+      flex-direction: column;
+      
+    }
+    .pet13, .pet2, #pet3 {
+        width: 80%;
+        
+    }
+    .container {
+        height: auto;
+        background-image: linear-gradient(to bottom, #DECBA4, #3E5151);
+        overflow: hidden;
+        
+    }
+    .one {
+        gap: 30px;
+    }
+  }
